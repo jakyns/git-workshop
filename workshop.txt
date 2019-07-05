@@ -1,0 +1,61 @@
+git init
+
+git status
+
+git add
+  - git add .
+  - git add *.html
+  - git add Pipfile*
+git reset
+  - git reset --hard
+  - git reset HEAD {file}
+  - git reset HEAD~1 --hard
+  - git reset --soft
+git commit
+  - git commit -m "{message}"
+  - git commit -am "{message}"
+  - git commit --amend
+
+git show
+git diff
+git log
+  - git log
+  - git log --graph
+  - git log --pretty=oneline
+  - git log --author=bank
+git checkout
+  - git checkout
+  - git checkout -b 
+git branch
+  - git branch -m {branch_name}
+  - git branch -D
+
+git remote add {remote_name} {url}
+git remote remove {remote_name} 
+git fetch
+git push
+  - git push -f {remote_name} {branch_name}
+git pull
+  - git pull --rebase
+git clone {url} {folder_name}
+
+git tag {tag_name}
+git push {remote_name} {branch_name} --tags
+
+# configuration
+~/.gitconfig
+
+git config
+git config --global user.name "xxx"
+git config --global user.email "xxx"
+
+git merge xxx
+
+git cherry-pick {xxx}
+git rebase
+  - git rebase {branch_name}
+  - git rebase -i {branch_name}~i
+
+git reflog
+
+ref: https://jon-wong-sutd.github.io/git-lessons/git-lesson/
