@@ -26,6 +26,9 @@ git log
 git checkout
   - git checkout
   - git checkout -b 
+git stash
+  - git stash list
+  - git stash drop {stash_no}
 git branch
   - git branch -m {branch_name}
   - git branch -D
