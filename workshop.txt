@@ -1,7 +1,7 @@
 git init
 
-git status
 
+djlshfjkdhgdkfgh
 git add
   - git add .
   - git add *.html
